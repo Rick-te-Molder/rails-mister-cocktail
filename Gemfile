@@ -22,7 +22,8 @@ gem 'webpacker'
 # gem 'therubyracer', platforms: :ruby
 # faker
 gem 'faker', :git => 'https://github.com/stympy/faker.git', :branch => 'master'
-
+# in order to use simple_form_for
+gem 'simple_form'
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks

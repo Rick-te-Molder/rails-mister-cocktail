@@ -1,0 +1,8 @@
+<h1>A Tale of Two Cocktails</h1>
+<p>We like books and we love cocktails. So we decided to name our cocktails after book titles. Make yourself at home. Drink your favorite book, read your favorite cocktail or do both!</p>
+<h2>Our Cocktails</h2>
+<% @cocktails.each do |cocktail| %>
+  <h4 class="clean-link"><%= link_to "#{cocktail.name}", cocktail_path(cocktail) %></h4>
+<% end %>
+<br>
+<p><%= link_to "add a cocktail", new_cocktail_path(@cocktails) %></p>
