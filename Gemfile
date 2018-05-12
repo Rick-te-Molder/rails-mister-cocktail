@@ -23,6 +23,11 @@ gem 'webpacker'
 # faker
 gem 'faker', :git => 'https://github.com/stympy/faker.git', :branch => 'master'
 # in order to use simple_form_for
+# icons
+gem 'font-awesome-sass'
+# responsiveness
+gem 'bootstrap-sass' #v3
+# simple_form_for
 gem 'simple_form'
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'

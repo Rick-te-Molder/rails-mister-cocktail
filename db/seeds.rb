@@ -5,6 +5,7 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
 # require 'open-uri'
 # response = open('http://www.thecocktaildb.com/api/json/v1/1/list.php?i=list').read
 # ingredients = JSON.parse(response)
